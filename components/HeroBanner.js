@@ -11,7 +11,7 @@ const HeroBanner = () => {
         <div className='flex justify-center md:py-12 pt-8'>
             <img src="./isotipoOficial.png" alt="Garnet International Trading Corp. Logo" className='w-1/5 h-1/5'/>
         </div>
-        <h1 className='font-poppins mt-10 font-extrabold text-white drop-shadow-lg shadow-black text-xl sm:text-5xl lg:text-7xl md:mt-0'>Global Reach.</h1>
+        <h1 className='font-poppins mt-6 sm:mt-10 font-extrabold text-white drop-shadow-lg shadow-black text-xl sm:text-5xl lg:text-7xl md:mt-0'>Global Reach.</h1>
         <h1 className='font-poppins font-extrabold text-white drop-shadow-lg shadow-black text-xl sm:text-5xl lg:text-7xl md:mt-0'>
         Personalized Service.</h1>
 

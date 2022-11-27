@@ -33,10 +33,9 @@ export default function Home() {
         )}
         <div
               className={
-                `w-full ${activeMenu ? 'md:mr-72' : 'flex-2'}`
+                `dark:bg-main-dark-bg ${activeMenu ? 'md:mr-72' : 'flex-2'}`
               }
             >
-              <div className=" dark:bg-main-dark-bg navbar w-full ">
                 <Navbar />
                 <HeroBanner />
                 <AboutUs />
@@ -44,7 +43,6 @@ export default function Home() {
                 <Markets />
                 <Form />
                 <Footer />
-              </div>
               
           </div>
 

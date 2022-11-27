@@ -4,7 +4,7 @@ import Subtitle from './Subtitle'
 const Form = () => {
   return (
     <div className='flex flex-wrap flex-col md:flex-row bg-dark-light' id='contact'>
-        <div className='sm:mx-auto sm:w-full md:w-1/2 p-12 px-6 sm:px-12 lg:px-16'>
+        <div className='sm:mx-auto sm:w-full md:w-1/2 py-12 px-2 sm:pl-6 sm:px-12 lg:px-16'>
         <Subtitle 
             subtitle={'Contact Us'}
             isWhite={true}/>

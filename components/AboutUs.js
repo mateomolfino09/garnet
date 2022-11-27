@@ -6,7 +6,7 @@ const AboutUs = () => {
 
     
     <div>
-        <div className='w-full relative overflow-hidden mt-20 px-6 sm:px-12 lg:px-16' id='about'>
+        <div className='w-full relative overflow-hidden mt-20 pl-12 px-6 md:px-12 lg:px-16 ' id='about'>
             <Subtitle subtitle={'About Us'}/>
             <p className='lg:font-light font-light text-xs lg:text-lg'>Garnet International has become a trusted partner with strong ties to the slaughtering and agriculture sectors. Our role has evolved as specialized commodity merchants with impressive connections, established relationships, and areas of expertise.</p>
             <p className='lg:font-light font-light text-xs lg:text-lg mb-4'>Our involvement in the global marketplace has enabled us to identify emerging markets and anticipate market trends. These insights allow us to secure fair deals with suppliers and clients. </p>
