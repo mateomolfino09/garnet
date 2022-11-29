@@ -8,7 +8,7 @@ const Form = () => {
         <Subtitle 
             subtitle={'Contact Us'}
             isWhite={true}/>
-        <form action="" method='POST' className='mb-0 rounded-xl'>
+        <form action="" method='POST' className='mb-0 rounded-xl lg:pl-40'>
             <div className='mt-4 flex items-center justify-center'>
             <input type="text" required name='name' placeholder='Name (required)' autoComplete='nombre' className='w-[360px] h-[32px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary '
             /> 

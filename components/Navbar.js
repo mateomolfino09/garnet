@@ -12,9 +12,9 @@ function Navbar() {
         <nav className='shadow-sm w-full z-10 bg-black'>
             <div className="w-full">
                 <div className='flex items-center h-20 w-full'>
-                    <div className='flex items items-center mx-20 justify-between w-full'>
+                    <div className='flex items items-center md:mx-20 ml-8 mr-20 justify-between w-full'>
                         <div className='flex justify-start items-center flex-shrink-0'>
-                            <img src='/logowhite.png' alt="Garnet International Trading Corp. Logo" className='h-[59px] w-[220px] rounded-full' onClick={() => window.location.reload(false)} />
+                            <img src='/logowhite.png' alt="Garnet International Trading Corp. Logo" className='md:h-[59px] md:w-[220px] h-[31px] w-[126px]rounded-full' onClick={() => window.location.reload(false)} />
                         </div>
                         <div className="hidden lg:block">
                             <div className='ml-10 flex items-baseline space-x-4'>
@@ -23,28 +23,28 @@ function Navbar() {
                                     to='/'
                                     smooth='true'
                                     duration={500}
-                                    className='cursor-pointer text-white hover:text-white px-3 py-2 rounded-md text-xl hover:font-black font-semibold'>
+                                    className='cursor-pointer text-white hover:text-white px-3 py-2 rounded-md text-base hover:font-black font-semibold'>
                                         Home
                                 </Link>
                                 <Link 
                                     to='about'
                                     smooth='true'
                                     duration={500}
-                                    className='cursor-pointer text-white hover:text-white px-3 py-2 rounded-md text-xl hover:font-black font-semibold'>
+                                    className='cursor-pointer text-white hover:text-white px-3 py-2 rounded-md text-base hover:font-black font-semibold'>
                                         About
                                 </Link>
                                 <Link 
                                     to='markets'
                                     smooth='true'
                                     duration={500}
-                                    className='cursor-pointer text-white hover:text-white px-3 py-2 rounded-md text-xl hover:font-black font-semibold'>
+                                    className='cursor-pointer text-white hover:text-white px-3 py-2 rounded-md text-base hover:font-black font-semibold'>
                                         Markets
                                 </Link>
                                 <Link 
                                     to='contact'
                                     smooth='true'
                                     duration={500}
-                                    className='cursor-pointer text-white hover:text-white px-3 py-2 rounded-md text-xl hover:font-black font-semibold'>
+                                    className='cursor-pointer text-white hover:text-white px-3 py-2 rounded-md text-base hover:font-black font-semibold'>
                                         Contact
                                 </Link>
                             </div>
