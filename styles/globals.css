@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input::placeholder {
+    font-size: 12px;
+}
+textarea::placeholder {
+    font-size: 12px;
+}

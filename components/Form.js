@@ -9,25 +9,25 @@ const Form = () => {
             subtitle={'Contact Us'}
             isWhite={true}/>
         <form action="" method='POST' className='mb-0 rounded-xl lg:pl-40'>
-            <div className='mt-4 flex items-center justify-center'>
+            <div className='mt-4 flex items-center justify-start'>
             <input type="text" required name='name' placeholder='Name (required)' autoComplete='nombre' className='w-[360px] h-[32px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary '
             /> 
             </div>
             
-            <div className='mt-4 flex items-center justify-center'>
+            <div className='mt-4 flex items-center justify-start'>
             <input type="text" required name='email' autoComplete='email' placeholder='Email (required)' className='w-[360px] h-[32px]  border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary'
             />
             </div>
         
-            <div className='mt-4 flex items-center justify-center'>
+            <div className='mt-4 flex items-center justify-start'>
             <input type="text" required name='subject' autoComplete='subject' placeholder='Subject' className='w-[360px] h-[32px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary'
             /> 
             </div>
-            <div className='mt-4 flex items-center justify-center'>
+            <div className='mt-4 flex items-center justify-start'>
             <textarea type="text" size="100" required name='subject' autoComplete='subject' placeholder='Message' className='w-[360px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary h-[136px]'
             /> 
             </div>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center md:justify-start items-center'>
                 <button type='submit' className='mt-6 w-[170px] h-32px] flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-black bg-green-light hover:bg-lessblue focus:outline-none focus:ring-offset-2 focus:ring-primary '>Submit</button>
             </div>
         </form>

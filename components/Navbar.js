@@ -9,10 +9,10 @@ function Navbar() {
 
     return (
         <div className=''>
-        <nav className='shadow-sm w-full z-10 bg-black'>
+        <nav className='shadow-sm w-[101%] z-10 bg-black fixed'>
             <div className="w-full">
-                <div className='flex items-center h-20 w-full'>
-                    <div className='flex items items-center md:mx-20 ml-8 mr-20 justify-between w-full'>
+                <div className='flex items-center h-16 w-full'>
+                    <div className='flex items items-center md:mx-20 ml-6 mr-20 justify-between w-full'>
                         <div className='flex justify-start items-center flex-shrink-0'>
                             <img src='/logowhite.png' alt="Garnet International Trading Corp. Logo" className='md:h-[59px] md:w-[220px] h-[31px] w-[126px]rounded-full' onClick={() => window.location.reload(false)} />
                         </div>
