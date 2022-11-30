@@ -9,21 +9,21 @@ const Form = () => {
             subtitle={'Contact Us'}
             isWhite={true}/>
         <form action="" method='POST' className='mb-0 rounded-xl lg:pl-40'>
-            <div className='mt-4 flex items-center justify-start'>
+            <div className='mt-4 flex items-center justify-center md:justify-start'>
             <input type="text" required name='name' placeholder='Name (required)' autoComplete='nombre' className='w-[360px] h-[32px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary '
             /> 
             </div>
             
-            <div className='mt-4 flex items-center justify-start'>
+            <div className='mt-4 flex items-center justify-center md:justify-start'>
             <input type="text" required name='email' autoComplete='email' placeholder='Email (required)' className='w-[360px] h-[32px]  border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary'
             />
             </div>
         
-            <div className='mt-4 flex items-center justify-start'>
+            <div className='mt-4 flex items-center justify-center md:justify-start'>
             <input type="text" required name='subject' autoComplete='subject' placeholder='Subject' className='w-[360px] h-[32px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary'
             /> 
             </div>
-            <div className='mt-4 flex items-center justify-start'>
+            <div className='mt-4 flex items-center justify-center md:justify-start'>
             <textarea type="text" size="100" required name='subject' autoComplete='subject' placeholder='Message' className='w-[360px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary h-[136px]'
             /> 
             </div>
@@ -32,7 +32,7 @@ const Form = () => {
             </div>
         </form>
         </div>
-        <div className='flex flex-col justify-center md:w-1/2 items-center mb-8 sm:mx-auto sm:w-full p-12 px-6 sm:px-12 lg:px-16'>
+        <div className='flex flex-col justify-center md:justify-start md:w-1/2 items-center mb-8 sm:mx-auto sm:w-full p-12 px-6 sm:px-12 lg:px-16'>
             <h4 className='text-white text-lg md:text-2xl mb-8'>Email Contact</h4>
             <div className='flex flex-col justify-center items-center mb-4'>
                 <h5 className='text-white text-base md:text-xl'>Management</h5>
