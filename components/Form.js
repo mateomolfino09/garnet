@@ -8,7 +8,7 @@ const Form = () => {
         <Subtitle 
             subtitle={'Contact Us'}
             isWhite={true}/>
-        <form action="" method='POST' className='mb-0 rounded-xl lg:pl-40'>
+        <form action="https://formsubmit.co/execution@garnetinternational.us" method='POST' className='mb-0 rounded-xl lg:pl-40'>
             <div className='mt-4 flex items-center justify-center md:justify-start'>
             <input type="text" required name='name' placeholder='Name (required)' autoComplete='nombre' className='w-[360px] h-[32px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary '
             /> 
@@ -24,7 +24,7 @@ const Form = () => {
             /> 
             </div>
             <div className='mt-4 flex items-center justify-center md:justify-start'>
-            <textarea type="text" size="100" required name='subject' autoComplete='subject' placeholder='Message' className='w-[360px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary h-[136px]'
+            <textarea type="text" size="100" required name='message' autoComplete='message' placeholder='Message' className='w-[360px] border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary h-[136px]'
             /> 
             </div>
             <div className='flex justify-center md:justify-start items-center'>
